@@ -20,7 +20,6 @@ export default function Search({ placeholder }: { placeholder: string }) {
     }
     replace(`${pathname}?${params.toString()}`);
   }, 300)
-  console.log(searchParams.get('query')?.toString())
 
   return (
     <div className="relative flex flex-1 flex-shrink-0">
